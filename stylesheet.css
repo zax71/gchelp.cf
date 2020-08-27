@@ -9,3 +9,25 @@
   bottom: 20px;
   color: white;
 }
+
+p {
+color: white;
+text-align: center;
+}
+
+.square:before{
+	content: "";
+	display: block;
+	padding-top: 100%; 	/* initial ratio of 1:1*/
+}
+
+div#vid-link {
+	border-radius: 5px;
+	background: rgb(99, 99, 99);
+	padding: 200px;
+	opacity: 0.5; 
+}
+
+div#vid-link:hover {
+  opacity: 1.0;
+}
