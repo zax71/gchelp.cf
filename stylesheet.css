@@ -13,9 +13,13 @@
 .text {
 color: white;
 text-align: center;
-width: 200px;
-height: 10px;
-background-color: red;
+
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 30%;
+    width: 50%;
+    margin: -15% 0 0 -25%;
 }
 
 .square:before{
@@ -27,10 +31,15 @@ background-color: red;
 div#vid-link {
 	border-radius: 5px;
 	background: rgb(99, 99, 99);
-	padding: 200px;
-	opacity: 0.5; 
+	opacity: 0.5;
 }
 
 div#vid-link:hover {
   opacity: 1.0;
 }
+
+video { 
+	background-color: red;
+	position: relative;
+	left: 10vw;
+}  
