@@ -10,9 +10,12 @@
   color: white;
 }
 
-p {
+.text {
 color: white;
 text-align: center;
+width: 200px;
+height: 10px;
+background-color: red;
 }
 
 .square:before{
