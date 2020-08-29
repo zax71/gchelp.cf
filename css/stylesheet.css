@@ -49,3 +49,15 @@ video{
     height:100%;
     width:100%;
 }  
+
+.white {
+    color: white;
+}
+
+.inline {
+    display: inline;
+}
+
+.tooltip {
+    color: #7289da;
+}
